@@ -1,0 +1,3551 @@
+{
+  "$type": "YesAlready.Configuration, YesAlready",
+  "Version": 1,
+  "Enabled": true,
+  "MessageChannel": 1,
+  "ForcedYesKey": 16,
+  "ForcedTalkKey": 0,
+  "DisableKey": 0,
+  "SeparateForcedKeys": false,
+  "RootFolder": {
+    "$type": "YesAlready.TextFolderNode, YesAlready",
+    "Name": "/",
+    "Children": [
+      {
+        "$type": "YesAlready.TextEntryNode, YesAlready",
+        "Enabled": false,
+        "Text": "/Accept Teleport to .*?/",
+        "RequiresPlayerConditions": false,
+        "PlayerConditions": "",
+        "IsConditional": false,
+        "ConditionalNumberTemplate": "",
+        "ConditionalNumber": 0,
+        "ComparisonType": 3,
+        "ZoneRestricted": false,
+        "ZoneText": "",
+        "IsYes": true
+      },
+      {
+        "$type": "YesAlready.TextEntryNode, YesAlready",
+        "Enabled": true,
+        "Text": "/Accept Raise from .*?/",
+        "RequiresPlayerConditions": false,
+        "PlayerConditions": "",
+        "IsConditional": false,
+        "ConditionalNumberTemplate": "",
+        "ConditionalNumber": 0,
+        "ComparisonType": 3,
+        "ZoneRestricted": false,
+        "ZoneText": "",
+        "IsYes": true
+      },
+      {
+        "$type": "YesAlready.TextEntryNode, YesAlready",
+        "Enabled": true,
+        "Text": "/A kupo voucher is required.*/",
+        "RequiresPlayerConditions": false,
+        "PlayerConditions": "",
+        "IsConditional": false,
+        "ConditionalNumberTemplate": "",
+        "ConditionalNumber": 0,
+        "ComparisonType": 3,
+        "ZoneRestricted": false,
+        "ZoneText": "",
+        "IsYes": true
+      },
+      {
+        "$type": "YesAlready.TextEntryNode, YesAlready",
+        "Enabled": true,
+        "Text": "/^Appraise the .*?/",
+        "RequiresPlayerConditions": false,
+        "PlayerConditions": "",
+        "IsConditional": false,
+        "ConditionalNumberTemplate": "",
+        "ConditionalNumber": 0,
+        "ComparisonType": 3,
+        "ZoneRestricted": false,
+        "ZoneText": "",
+        "IsYes": true
+      },
+      {
+        "$type": "YesAlready.TextEntryNode, YesAlready",
+        "Enabled": true,
+        "Text": "/Apply this resolution? Settings will be restored in .* seconds./",
+        "RequiresPlayerConditions": false,
+        "PlayerConditions": "",
+        "IsConditional": false,
+        "ConditionalNumberTemplate": "",
+        "ConditionalNumber": 0,
+        "ComparisonType": 3,
+        "ZoneRestricted": false,
+        "ZoneText": "",
+        "IsYes": true
+      },
+      {
+        "$type": "YesAlready.TextEntryNode, YesAlready",
+        "Enabled": true,
+        "Text": "/Play Faux Hollows?.*/",
+        "RequiresPlayerConditions": false,
+        "PlayerConditions": "",
+        "IsConditional": false,
+        "ConditionalNumberTemplate": "",
+        "ConditionalNumber": 0,
+        "ComparisonType": 3,
+        "ZoneRestricted": false,
+        "ZoneText": "",
+        "IsYes": true
+      },
+      {
+        "$type": "YesAlready.TextEntryNode, YesAlready",
+        "Enabled": true,
+        "Text": "/Prepare the bed with .*?/",
+        "RequiresPlayerConditions": false,
+        "PlayerConditions": "",
+        "IsConditional": false,
+        "ConditionalNumberTemplate": "",
+        "ConditionalNumber": 0,
+        "ComparisonType": 3,
+        "ZoneRestricted": false,
+        "ZoneText": "",
+        "IsYes": true
+      },
+      {
+        "$type": "YesAlready.TextEntryNode, YesAlready",
+        "Enabled": true,
+        "Text": "/Delete .*/",
+        "RequiresPlayerConditions": false,
+        "PlayerConditions": "",
+        "IsConditional": false,
+        "ConditionalNumberTemplate": "",
+        "ConditionalNumber": 0,
+        "ComparisonType": 3,
+        "ZoneRestricted": false,
+        "ZoneText": "",
+        "IsYes": true
+      },
+      {
+        "$type": "YesAlready.TextEntryNode, YesAlready",
+        "Enabled": true,
+        "Text": "/Register for .*? ※Only the party leader may register when joining as a party./",
+        "RequiresPlayerConditions": false,
+        "PlayerConditions": "",
+        "IsConditional": false,
+        "ConditionalNumberTemplate": "",
+        "ConditionalNumber": 0,
+        "ComparisonType": 3,
+        "ZoneRestricted": false,
+        "ZoneText": "",
+        "IsYes": true
+      },
+      {
+        "$type": "YesAlready.TextEntryNode, YesAlready",
+        "Enabled": true,
+        "Text": "/Accept linkshell invite .*?/",
+        "RequiresPlayerConditions": false,
+        "PlayerConditions": "",
+        "IsConditional": false,
+        "ConditionalNumberTemplate": "",
+        "ConditionalNumber": 0,
+        "ComparisonType": 3,
+        "ZoneRestricted": false,
+        "ZoneText": "",
+        "IsYes": true
+      },
+      {
+        "$type": "YesAlready.TextEntryNode, YesAlready",
+        "Enabled": true,
+        "Text": "Your retainer will be unable",
+        "RequiresPlayerConditions": false,
+        "PlayerConditions": "",
+        "IsConditional": false,
+        "ConditionalNumberTemplate": "",
+        "ConditionalNumber": 0,
+        "ComparisonType": 3,
+        "ZoneRestricted": false,
+        "ZoneText": "",
+        "IsYes": true
+      },
+      {
+        "$type": "YesAlready.TextEntryNode, YesAlready",
+        "Enabled": true,
+        "Text": "Your home point is not set to an aetheryte in this area. If you return to your current home point at any time during the levequest, you will automatically abandon the duty. Proceed?",
+        "RequiresPlayerConditions": false,
+        "PlayerConditions": "",
+        "IsConditional": false,
+        "ConditionalNumberTemplate": "",
+        "ConditionalNumber": 0,
+        "ComparisonType": 3,
+        "ZoneRestricted": false,
+        "ZoneText": "",
+        "IsYes": true
+      },
+      {
+        "$type": "YesAlready.TextEntryNode, YesAlready",
+        "Enabled": true,
+        "Text": "Meld the",
+        "RequiresPlayerConditions": false,
+        "PlayerConditions": "",
+        "IsConditional": false,
+        "ConditionalNumberTemplate": "",
+        "ConditionalNumber": 0,
+        "ComparisonType": 3,
+        "ZoneRestricted": false,
+        "ZoneText": "",
+        "IsYes": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Treasure Maps",
+        "Children": [
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Decipher the .* map?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Open the treasure coffer?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Open the treasure coffer? The treasure map will be lost.",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Recurring Purchases",
+        "Children": [
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Purchase 99 fragments of grade .* dark matter for .* gil?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Purchase the action “The Heat of Battle II” for 6,020 credits?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Purchase 99 tanks of ceruleum for 9,900 company credits?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Exchange 495 Centurio Seals for 99 aetheryte tickets?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Exchange 495 Allied Seals for 99 aetheryte tickets?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Donate the items for a gratuity of .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "You cannot currently equip this item. Proceed with the transaction?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Purchase 99 ragworms for 792 gil?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Purchase 99 krill for 792 gil?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Purchase 99 plump worms for 792 gil?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Random Dungeon/Mission Shit",
+        "Children": [
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/^Open the .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/^Use .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/^Place .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/^Utilize the .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/^Pull the .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/^Operate .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/^Activate .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/^Unlock .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Tip the Scales of Judgment?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Place a thunder egg on the altar?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Break the dragon's seal?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Pull the drainage pump lever?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Commence the invocation?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Guess higher?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Guess lower?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Strap into the magitek armor?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Add 12 onzes of firesand to the powder chamber?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "You find a switch. Press it?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Read from the bloody parchment?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Affix the magitek photocells to the terminal?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Entrust yourself to the crystal ball's light?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Will you assist Jalzahn?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Attempt the climb once more?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Return to the Sorcerer's Interstice?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Touch .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "The blade pulsates with ominous energy. Close the lid?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Moving Areas",
+        "Children": [
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/^Teleport to .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/^Proceed to .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/^Enter .*/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/^Exit .*/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": false,
+            "Text": "/(?!.+(to the Limsa Lominsa Lower Decks))(Return .*)/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/^Travel to .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/^Leave .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/^Descend .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/^Move to .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/^Jump into .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/^Cross the .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/^Ride .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/^Mount .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/^Unlock .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/^Journey .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/^Board .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "You are about to withdraw from the field. Proceed?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Abandon duty?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Move immediately to sealed area?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Retire to your own chambers?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Leave duty?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Fly to .*/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Embark to .*/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": true,
+            "ZoneText": "Limsa Lominsa Lower Decks",
+            "IsYes": true
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Gold Saucer",
+        "Children": [
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Try again to save the hatchling?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Rescue the chocobo chick?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Take the leap?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Claim more prizes?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Purchase a Jumbo Cactpot ticket .*/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Buy another ticket?.*/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Participate in the event?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/purchase a ticket/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/.*MGP is required to purchase a ticket. You currently possess .*\\. Proceed?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Do you wish to participate in this GATE?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Leave the attraction?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Accept Yojimbo's challenge?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Lord of Verminion Command your minions, and conquer your enemies!  Are you prepared for battle?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Accept your prize?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "FATEs",
+        "Children": [
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/.*  ※The recommended level for this FATE is .*./",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Levequests",
+        "Children": [
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Are you certain you wish to abandon the levequest?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "You can reattempt a failed levequest for one leve allowance. Proceed?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Parties",
+        "Children": [
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Disband party?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Disband the party and cancel recruitment?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": false,
+            "Text": "/Join .* party?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "You cannot carry out the selected objective with this party composition. Proceed anyway?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Bozja/Eureka",
+        "Children": [
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Appraise the .* logogram?.*/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Trade a .* lockbox?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Open the southern front lockbox? .*/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Deploy and join .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Receive .* mettle?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Convert vitiated aether into crystalline form?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Trade .* sheaf of field notes .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Trade .* sheaves of field notes .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Register for .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": true,
+            "ZoneText": "Zadnor",
+            "IsYes": true
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Gear Related/Adjacent",
+        "Children": [
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Gear currently equipped will be bound to you. Do you wish to proceed?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Reassign current gear to .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "You cannot currently equip this item. Proceed with the transaction?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Repair all displayed items for .* gil?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Delete saved outfit data and remove all but last gear equipped?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "You are attempting to meld additional materia to an item. If you fail, you will lose the materia. Proceed?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Repair as many of the displayed items as possible using the following materials?.*/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Using a glamour prism on the selected item and placing it into the glamour dresser will reset its spiritbond to 0% and condition to 100%, as well as remove customization including: glamours, crests, signatures, materia, and most aetherial bonuses. The item will also be bound to you upon removal. Proceed?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Placing .* the armoire will reset its spiritbond.* Proceed?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Island Sanctuary",
+        "Children": [
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Accept the following items?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Accept materials gathered from the expedition?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Delete the selected preset?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/.* will be collected. Proceed?.*/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Exchange .* seafarer's cowries for .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Are you sure you wish to remove and discard the .*/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Spend .* seafarer's cowries to dispatch an expedition to .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Are you sure you wish to collect all of the leavings gathered by the creature comforter?※Caretaking services will continue after collection.",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Are you sure you wish to collect all of the yields harvested by the produce producer?※Gardening services will continue after collection.",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Register the agenda beginning with this item as a preset?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "This workshop's production schedule will be entirely erased. Proceed?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Relic shit",
+        "Children": [
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "If the infusion fails you will lose the materia but not the alexandrite. Proceed?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Trade 50 Allagan tomestones of poetics for Mahatma.*/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Exchange 100 Allagan tomestones of poetics for a copy of the Book of .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Confirm attributes and receive the majestic .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Palace/HoH",
+        "Children": [
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Are you sure you wish to enter alone?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Party KO count for this save data is more than zero. Later floors will not be accessible. Proceed?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Novice Network/Mentor",
+        "Children": [
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Your online status will be set to “Mentor.”Other players will be able to identify you as a mentor while this setting is active.As a mentor, you are expected to actively perform the following:1. Provide gameplay advice for new adventurers and other players.2. Be an exemplar for player etiquette.3. Invite new adventurers to the Novice Network, and answer their queries in the chat channel.※Inappropriate mentor behavior may be reported.",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Join the Novice Network?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Mail/Trading",
+        "Children": [
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Claim reward?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Delete this letter?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Complete trade?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Send letter to .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Item Warnings",
+        "Children": [
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Restore item to its original form?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Exiting the area with a full inventory may result in the loss of rewards. Record progress and leave the area?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Warning: You will not be able to receive all the following:    Allagan Tomestones  Do you still wish to proceed?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Do you really want to trade a high-quality item?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Are you certain you wish to transmute these materia?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": false,
+            "Text": "/By passing on the .*, you will no longer have the option to select Need or Greed. Proceed?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": false,
+            "Text": "/Purchase .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Lower the quality.*/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Exchange .*/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/^Discard .*?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Preserve the following item with a collectability of .*/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Retainers",
+        "Children": [
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Hire this retainer?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Hire a retainer?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Hire the services of .*?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/.* will become a .* Are you certain you wish to proceed?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Finalize your retainer's appearance?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Hire the services of .*/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Free Company",
+        "Children": [
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Discharge .* from the free company?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Pay 15,000 gil and found a free company?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Become a squadron commander?",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Invite .* to your free company?/",
+            "RequiresPlayerConditions": false,
+            "PlayerConditions": "",
+            "IsConditional": false,
+            "ConditionalNumberTemplate": "",
+            "ConditionalNumber": 0,
+            "ComparisonType": 3,
+            "ZoneRestricted": false,
+            "ZoneText": "",
+            "IsYes": true
+          },
+          {
+            "$type": "YesAlready.TextFolderNode, YesAlready",
+            "Name": "Squadrons",
+            "Children": [
+              {
+                "$type": "YesAlready.TextEntryNode, YesAlready",
+                "Enabled": true,
+                "Text": "Are you certain you wish to commence training?",
+                "RequiresPlayerConditions": false,
+                "PlayerConditions": "",
+                "IsConditional": false,
+                "ConditionalNumberTemplate": "",
+                "ConditionalNumber": 0,
+                "ComparisonType": 3,
+                "ZoneRestricted": false,
+                "ZoneText": "",
+                "IsYes": true
+              },
+              {
+                "$type": "YesAlready.TextEntryNode, YesAlready",
+                "Enabled": true,
+                "Text": "Do you wish to review the remaining enlistment papers?",
+                "RequiresPlayerConditions": false,
+                "PlayerConditions": "",
+                "IsConditional": false,
+                "ConditionalNumberTemplate": "",
+                "ConditionalNumber": 0,
+                "ComparisonType": 3,
+                "ZoneRestricted": false,
+                "ZoneText": "",
+                "IsYes": true
+              },
+              {
+                "$type": "YesAlready.TextEntryNode, YesAlready",
+                "Enabled": true,
+                "Text": "/Commence .*/",
+                "RequiresPlayerConditions": false,
+                "PlayerConditions": "",
+                "IsConditional": false,
+                "ConditionalNumberTemplate": "",
+                "ConditionalNumber": 0,
+                "ComparisonType": 3,
+                "ZoneRestricted": true,
+                "ZoneText": "Maelstrom Barracks",
+                "IsYes": true
+              },
+              {
+                "$type": "YesAlready.TextEntryNode, YesAlready",
+                "Enabled": true,
+                "Text": "/Commence .*? .* ※If a mission is successful, another may not be undertaken until the mission list resets./",
+                "RequiresPlayerConditions": false,
+                "PlayerConditions": "",
+                "IsConditional": false,
+                "ConditionalNumberTemplate": "",
+                "ConditionalNumber": 0,
+                "ComparisonType": 3,
+                "ZoneRestricted": false,
+                "ZoneText": "",
+                "IsYes": true
+              },
+              {
+                "$type": "YesAlready.TextEntryNode, YesAlready",
+                "Enabled": true,
+                "Text": "/Commence .*/",
+                "RequiresPlayerConditions": false,
+                "PlayerConditions": "",
+                "IsConditional": false,
+                "ConditionalNumberTemplate": "",
+                "ConditionalNumber": 0,
+                "ComparisonType": 3,
+                "ZoneRestricted": true,
+                "ZoneText": "Barracks",
+                "IsYes": true
+              }
+            ],
+            "Enabled": true
+          },
+          {
+            "$type": "YesAlready.TextFolderNode, YesAlready",
+            "Name": "Workshop",
+            "Children": [
+              {
+                "$type": "YesAlready.TextEntryNode, YesAlready",
+                "Enabled": true,
+                "Text": "/Use .* of your .* sets of magitek repair materials to repair your .*?/",
+                "RequiresPlayerConditions": false,
+                "PlayerConditions": "",
+                "IsConditional": false,
+                "ConditionalNumberTemplate": "",
+                "ConditionalNumber": 0,
+                "ComparisonType": 3,
+                "ZoneRestricted": false,
+                "ZoneText": "",
+                "IsYes": true
+              },
+              {
+                "$type": "YesAlready.TextEntryNode, YesAlready",
+                "Enabled": true,
+                "Text": "/Contribute .* to the company project?/",
+                "RequiresPlayerConditions": false,
+                "PlayerConditions": "",
+                "IsConditional": false,
+                "ConditionalNumberTemplate": "",
+                "ConditionalNumber": 0,
+                "ComparisonType": 3,
+                "ZoneRestricted": false,
+                "ZoneText": "",
+                "IsYes": true
+              },
+              {
+                "$type": "YesAlready.TextEntryNode, YesAlready",
+                "Enabled": true,
+                "Text": "/Retrieve the .* from the company workshop?/",
+                "RequiresPlayerConditions": false,
+                "PlayerConditions": "",
+                "IsConditional": false,
+                "ConditionalNumberTemplate": "",
+                "ConditionalNumber": 0,
+                "ComparisonType": 3,
+                "ZoneRestricted": false,
+                "ZoneText": "",
+                "IsYes": true
+              },
+              {
+                "$type": "YesAlready.TextEntryNode, YesAlready",
+                "Enabled": true,
+                "Text": "All scheduling information for the current cycle will be lost. Proceed?",
+                "RequiresPlayerConditions": false,
+                "PlayerConditions": "",
+                "IsConditional": false,
+                "ConditionalNumberTemplate": "",
+                "ConditionalNumber": 0,
+                "ComparisonType": 3,
+                "ZoneRestricted": false,
+                "ZoneText": "",
+                "IsYes": true
+              },
+              {
+                "$type": "YesAlready.TextEntryNode, YesAlready",
+                "Enabled": true,
+                "Text": "/Craft .*/",
+                "RequiresPlayerConditions": false,
+                "PlayerConditions": "",
+                "IsConditional": false,
+                "ConditionalNumberTemplate": "",
+                "ConditionalNumber": 0,
+                "ComparisonType": 3,
+                "ZoneRestricted": false,
+                "ZoneText": "",
+                "IsYes": true
+              }
+            ],
+            "Enabled": true
+          }
+        ],
+        "Enabled": true
+      }
+    ],
+    "Enabled": true
+  },
+  "OkRootFolder": {
+    "$type": "YesAlready.TextFolderNode, YesAlready",
+    "Name": "/",
+    "Children": [
+      {
+        "$type": "YesAlready.OkEntryNode, YesAlready",
+        "Enabled": false,
+        "Text": "Add some text here!"
+      },
+      {
+        "$type": "YesAlready.OkEntryNode, YesAlready",
+        "Enabled": true,
+        "Text": "You cannot carry any more letters"
+      }
+    ],
+    "Enabled": true
+  },
+  "ListRootFolder": {
+    "$type": "YesAlready.TextFolderNode, YesAlready",
+    "Name": "/",
+    "Children": [
+      {
+        "$type": "YesAlready.ListEntryNode, YesAlready",
+        "Enabled": false,
+        "Text": "Add some text here!",
+        "TargetRestricted": false,
+        "TargetText": ""
+      },
+      {
+        "$type": "YesAlready.ListEntryNode, YesAlready",
+        "Enabled": true,
+        "Text": "Enter the Masked Carnivale.",
+        "TargetRestricted": true,
+        "TargetText": "Celestium Attendant"
+      },
+      {
+        "$type": "YesAlready.ListEntryNode, YesAlready",
+        "Enabled": false,
+        "Text": "Uncanny Knickknacks",
+        "TargetRestricted": true,
+        "TargetText": "Bertana"
+      },
+      {
+        "$type": "YesAlready.ListEntryNode, YesAlready",
+        "Enabled": false,
+        "Text": "Undertake supply and provisioning missions.",
+        "TargetRestricted": true,
+        "TargetText": "Flame Personnel Officer"
+      },
+      {
+        "$type": "YesAlready.ListEntryNode, YesAlready",
+        "Enabled": true,
+        "Text": "Scrip Exchange",
+        "TargetRestricted": true,
+        "TargetText": "Scrip Exchange"
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Gold Saucer",
+        "Children": [
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Present yourself for judging.",
+            "TargetRestricted": true,
+            "TargetText": "Masked Rose"
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Purchase a Mini Cactpot ticket",
+            "TargetRestricted": true,
+            "TargetText": "Mini Cactpot Broker"
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Purchase a Jumbo Cactpot ticket",
+            "TargetRestricted": true,
+            "TargetText": "Jumbo Cactpot Broker"
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Gardening",
+        "Children": [
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": false,
+            "Text": "Plant Seeds",
+            "TargetRestricted": true,
+            "TargetText": ""
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": false,
+            "Text": "Harvest Crop",
+            "TargetRestricted": true,
+            "TargetText": ""
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": false,
+            "Text": "Harvest Crop",
+            "TargetRestricted": true,
+            "TargetText": "Glade Flowerpot"
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": false,
+            "Text": "Plant Seeds",
+            "TargetRestricted": true,
+            "TargetText": "Glade Flowerpot"
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": false,
+            "Text": "Harvest Crop",
+            "TargetRestricted": true,
+            "TargetText": "Riviera Flowerpot"
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": false,
+            "Text": "Plant Seeds",
+            "TargetRestricted": true,
+            "TargetText": "Riviera Flowerpot"
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Island Sanctuary",
+        "Children": [
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Review status of foraging expeditions.",
+            "TargetRestricted": true,
+            "TargetText": "Excitable Explorer"
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Export materials.",
+            "TargetRestricted": true,
+            "TargetText": "Enterprising Exporter"
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Review status of animals in the pasture.",
+            "TargetRestricted": true,
+            "TargetText": "Creature Comforter"
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Travel to my island.",
+            "TargetRestricted": true,
+            "TargetText": "Baldin"
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Custom Deliveries",
+        "Children": [
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Make a delivery",
+            "TargetRestricted": true,
+            "TargetText": "Zhloe Aliapoh"
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Make a delivery",
+            "TargetRestricted": true,
+            "TargetText": "M'naago"
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Make a delivery",
+            "TargetRestricted": true,
+            "TargetText": "Kurenai"
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Make a delivery",
+            "TargetRestricted": true,
+            "TargetText": "Adkiragh"
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Make a delivery",
+            "TargetRestricted": true,
+            "TargetText": "Kai-Shirr"
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Make a delivery",
+            "TargetRestricted": true,
+            "TargetText": "Ehll Tou"
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Make a delivery",
+            "TargetRestricted": true,
+            "TargetText": "Charlemend"
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Make a delivery",
+            "TargetRestricted": true,
+            "TargetText": "Ameliance"
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Make a delivery",
+            "TargetRestricted": true,
+            "TargetText": "Anden"
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Make a delivery",
+            "TargetRestricted": true,
+            "TargetText": "Margrat"
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Inns",
+        "Children": [
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Retire to an inn room.",
+            "TargetRestricted": true,
+            "TargetText": "Mytesyn"
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Retire to an inn room.",
+            "TargetRestricted": true,
+            "TargetText": "Otopa Pottopa"
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Retire to an inn room.",
+            "TargetRestricted": true,
+            "TargetText": "Antoinaut"
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Retire to your room.",
+            "TargetRestricted": true,
+            "TargetText": "Peshekwa"
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "FC Workshop",
+        "Children": [
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Complete the construction of .*/",
+            "TargetRestricted": true,
+            "TargetText": "Fabrication Station"
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Advance to the next phase of production.*/",
+            "TargetRestricted": true,
+            "TargetText": "Fabrication Station"
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Collect finished product.",
+            "TargetRestricted": true,
+            "TargetText": "Fabrication Station"
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "/Contribute materials.*/",
+            "TargetRestricted": true,
+            "TargetText": "Fabrication Station"
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Company Credit Exchange",
+            "TargetRestricted": true,
+            "TargetText": "Mammet Voyager #004A"
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Bozja",
+        "Children": [
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Enter the Bozjan southern front.",
+            "TargetRestricted": true,
+            "TargetText": "Sjeros"
+          },
+          {
+            "$type": "YesAlready.ListEntryNode, YesAlready",
+            "Enabled": true,
+            "Text": "Enter Zadnor.",
+            "TargetRestricted": true,
+            "TargetText": "Sjeros"
+          }
+        ],
+        "Enabled": true
+      }
+    ],
+    "Enabled": true
+  },
+  "TalkRootFolder": {
+    "$type": "YesAlready.TextFolderNode, YesAlready",
+    "Name": "/",
+    "Children": [
+      {
+        "$type": "YesAlready.TalkEntryNode, YesAlready",
+        "Enabled": false,
+        "TargetText": "Your text goes here"
+      },
+      {
+        "$type": "YesAlready.TalkEntryNode, YesAlready",
+        "Enabled": false,
+        "TargetText": "/.*/"
+      },
+      {
+        "$type": "YesAlready.TalkEntryNode, YesAlready",
+        "Enabled": true,
+        "TargetText": "Faux Commander"
+      },
+      {
+        "$type": "YesAlready.TalkEntryNode, YesAlready",
+        "Enabled": true,
+        "TargetText": "Khloe Aliapoh"
+      },
+      {
+        "$type": "YesAlready.TalkEntryNode, YesAlready",
+        "Enabled": true,
+        "TargetText": "Summoning Bell"
+      },
+      {
+        "$type": "YesAlready.TalkEntryNode, YesAlready",
+        "Enabled": true,
+        "TargetText": "Delivery Moogle"
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Gardening",
+        "Children": [
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "/.* Flowerpot/"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": ""
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Shops",
+        "Children": [
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Ardolain"
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Zodiac Relics",
+        "Children": [
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Jalzahn"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Remon"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "G'jusana"
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Anima Relics",
+        "Children": [
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Processing Node"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Verification Node"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Gerolt"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Ardashir"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Rowena"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Syndony"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Cristiana"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Blamprest"
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Gold Saucer",
+        "Children": [
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Mini Cactpot Broker"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Masked Rose"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Stricken Schoolgirl"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Supercilious Spellweaver"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Cactpot Cashier"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Jumbo Cactpot Broker"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Strangely Garbed Gentleman"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Disturbed Dowager"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Tournament Recordkeeper"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Blunderville Attendant"
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Island Sanctuary",
+        "Children": [
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Excitable Explorer"
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Inn Keepers",
+        "Children": [
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Peshekwa"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Antoinaut"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Otopa Pottopa"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Mytesyn"
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Levemetes",
+        "Children": [
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Lodille"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Voilinaut"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Rurubana"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Eidhart"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Eloin"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "K'leytai"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Keltraeng"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Chantine"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Graceful Song"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Totonowa"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Esmond"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Poponagu"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Nyell"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Nahctahr"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Cimeaurant"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Eirikur"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Muriaule"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Tierney"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Qina Lyehga"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Grigge"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Wyrkholsk"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Swygskyf"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Orwen"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Fupepe"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Q'molosi"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Daca Jinjahl"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Drividot"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Unsynwilf"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Clifton"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Louviaune"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "F'abodji"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Cesteline"
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Island Sanctuary",
+        "Children": [
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Tactful Taskmaster"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Baldin"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Felicitous Furball"
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Custom Deliveries",
+        "Children": [
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Zhloe Aliapoh"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "M'naago"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Kurenai"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Adkiragh"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Kai-Shirr"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Ehll Tou"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Charlemend"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Ameliance"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Anden"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Margrat"
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Firmament",
+        "Children": [
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Potkin"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Aurvael"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Flotpassant"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Lizbeth"
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Zone Movers",
+        "Children": [
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Confederate Skipper"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Burnel"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Elite Gladiator Trainer"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Gladiator Trainer"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Bronze Bull"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Frydwyb"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Enclave Skiff Captain"
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Doman Enclave",
+        "Children": [
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Kozakura"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Donation Basket"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Airship Pilot"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Mercantile Docks Skipper"
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Grand Company",
+        "Children": [
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Serpent Squadron Sergeant"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Storm Squadron Sergeant"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Flame Squadron Sergeant"
+          },
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "OIC Administrator"
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Fishing",
+        "Children": [
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Dryskthota"
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Splendorous Relics",
+        "Children": [
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Chora-Zoi"
+          }
+        ],
+        "Enabled": true
+      },
+      {
+        "$type": "YesAlready.TextFolderNode, YesAlready",
+        "Name": "Bozja",
+        "Children": [
+          {
+            "$type": "YesAlready.TalkEntryNode, YesAlready",
+            "Enabled": true,
+            "TargetText": "Resistance Councilor"
+          }
+        ],
+        "Enabled": true
+      }
+    ],
+    "Enabled": true
+  },
+  "NumericsRootFolder": {
+    "$type": "YesAlready.TextFolderNode, YesAlready",
+    "Name": "/",
+    "Children": [
+      {
+        "$type": "YesAlready.NumericsEntryNode, YesAlready",
+        "Enabled": false,
+        "Text": "Add some text here!",
+        "IsPercent": true,
+        "Percentage": 100,
+        "Quantity": 0
+      }
+    ],
+    "Enabled": true
+  },
+  "DesynthDialogEnabled": true,
+  "DesynthBulkDialogEnabled": true,
+  "MaterializeDialogEnabled": true,
+  "MaterialAttachDialogEnabled": false,
+  "OnlyMeldWhenGuaranteed": true,
+  "MateriaRetrieveDialogEnabled": true,
+  "ItemInspectionResultEnabled": true,
+  "ItemInspectionResultRateLimiter": 0,
+  "RetainerTaskAskEnabled": false,
+  "RetainerTaskResultEnabled": false,
+  "GrandCompanySupplyReward": true,
+  "ShopCardDialog": true,
+  "ShopExchangeItemDialogEnabled": true,
+  "JournalResultCompleteEnabled": true,
+  "ContentsFinderConfirmEnabled": true,
+  "ContentsFinderOneTimeConfirmEnabled": false,
+  "InclusionShopRememberEnabled": false,
+  "InclusionShopRememberCategory": 2,
+  "InclusionShopRememberSubcategory": 9,
+  "GuildLeveDifficultyConfirm": true,
+  "FallGuysRegisterConfirm": true,
+  "FallGuysExitConfirm": true,
+  "RetainerTransferListConfirm": false,
+  "RetainerTransferProgressConfirm": true,
+  "DesynthesisResults": true,
+  "AetherialReductionResults": false,
+  "FashionCheckQuit": true,
+  "LordOfVerminionQuit": true,
+  "ChocoboRacingQuit": true,
+  "PartyFinderJoinConfirm": false,
+  "GimmickYesNo": true,
+  "AutoCollectable": true,
+  "LotteryWeeklyInput": true,
+  "TradeMultiple": false,
+  "TransmuteMode": 0,
+  "KupoOfFortune": true,
+  "CustomDeliveries": true,
+  "MKSRecordQuit": false,
+  "FrontlineRecordQuit": false,
+  "DataCentreTravelConfirmEnabled": false,
+  "AirShipExplorationResultFinalize": false,
+  "AirShipExplorationResultRedeploy": false,
+  "MiragePrismRemoveDispel": false,
+  "MiragePrismExecuteCast": false,
+  "CustomCallbacks": []
+}
